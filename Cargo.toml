@@ -1,0 +1,10 @@
+[package]
+name = "zero-shell"
+version = "0.1.0"
+edition = "2021"
+description = "0-shell: a minimalist Unix-like shell written in Rust (std only)"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
